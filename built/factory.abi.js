@@ -130,4 +130,3 @@ const factoryabi = [
     }
 ];
 module.exports = factoryabi;
-//# sourceMappingURL=factory.abi.js.map

@@ -141,6 +141,16 @@ const abi = [
                     },
                     {
                         "internalType": "uint256",
+                        "name": "btcPriceOffchain",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "needsToBeLower",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "uint256",
                         "name": "excTime",
                         "type": "uint256"
                     },
@@ -378,6 +388,16 @@ const abi = [
             },
             {
                 "internalType": "uint256",
+                "name": "btcPriceOffchain",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "needsToBeLower",
+                "type": "bool"
+            },
+            {
+                "internalType": "uint256",
                 "name": "excTime",
                 "type": "uint256"
             },
@@ -494,4 +514,3 @@ const abi = [
     }
 ];
 module.exports = abi;
-//# sourceMappingURL=vault.abi.js.map

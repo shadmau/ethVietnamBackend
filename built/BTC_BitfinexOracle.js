@@ -18,4 +18,3 @@ getBTCPriceBitfinex()
 // promise3.then((value3) => {
 //   console.log("value3", value3);
 // });
-//# sourceMappingURL=BTC_BitfinexOracle.js.map

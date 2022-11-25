@@ -140,6 +140,16 @@ const abi = [
           },
           {
             "internalType": "uint256",
+            "name": "btcPriceOffchain",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "needsToBeLower",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
             "name": "excTime",
             "type": "uint256"
           },
@@ -374,6 +384,16 @@ const abi = [
         "internalType": "uint256",
         "name": "amount",
         "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "btcPriceOffchain",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "needsToBeLower",
+        "type": "bool"
       },
       {
         "internalType": "uint256",
